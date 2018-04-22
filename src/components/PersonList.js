@@ -7,10 +7,13 @@ class PersonList extends Component {
     }
 
     componentDidMount(){
-        axios.get('https://jsonplaceholder.typicode.com/users')
-            .then(res => {
-                this.setState({ persons: res.data})
-            })
+        axios({
+            method: 'get',
+            url: 'https://jsonplaceholder.typicode.com/users'
+        })
+        .then(res => {
+            this.setState({ persons: res.data})
+        })
     }
 
     render() {

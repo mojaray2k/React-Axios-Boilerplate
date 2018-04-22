@@ -16,12 +16,17 @@ class PersonInput extends Component {
         const user = {
             name: this.state.name
         }
-
-        axios.post('https://jsonplaceholder.typicode.com/users', { user })
-            .then(res => {
-                console.log(res)
-                console.log(res.data)
-            })
+        axios({
+            method: 'post',
+            url: 'https://jsonplaceholder.typicode.com/users',
+            data: {
+                user
+            }
+        })
+        .then(res => {
+            console.log(res)
+            console.log(res.data)
+        })
     }
 
     render() {
