@@ -1,0 +1,27 @@
+{
+  "name": "react-axios-boilerplate",
+  "version": "1.0.0",
+  "description": "A Boilerplate on Using Axios in React Projects",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojaray2k/React-Axios-Boilerplate.git"
+  },
+  "author": "Amen Ra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojaray2k/React-Axios-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/mojaray2k/React-Axios-Boilerplate#readme"
+}
